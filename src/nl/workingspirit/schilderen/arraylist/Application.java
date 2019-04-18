@@ -28,7 +28,7 @@ public class Application {
             System.out.println(element);
         }
 
-//        getallenLijst.remove(1); // => removes element at index 1
+        getallenLijst.remove(1); // => removes element at index 1
 
         getallenLijst.remove(new Integer(3)); // => trick to remove the number 3 out of the getallenlijst
         System.out.println(getallenLijst);

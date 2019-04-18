@@ -2,21 +2,14 @@ package nl.workingspirit.schilderen;
 
 public class Application {
 
-    private int c;
-
 
     public static void main(String[] args) {
 
         String s = null;
 
-//        System.out.println(a);
+        int length = s.length();// throws NullPointerException
 
-
-//        char[] chars = s.toCharArray();
-
-        int length = s.length();
-
-        System.out.println(length); // throws RuntimeException
+        System.out.println(length); 
 
     }
 }

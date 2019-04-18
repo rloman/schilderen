@@ -20,8 +20,6 @@ public class Application {
 
         System.out.println(andereReeks.toString());
 
-//        foo(nogEenAndereReeks);
-
         String[] names = {"Mark", "Ghislaine", "Justin"};
 
         for (String name : names) {
@@ -29,7 +27,6 @@ public class Application {
             System.out.println(name);
         }
 
-        System.out.println(fibon(10));
 
         long[] fibon = new long[50];
         fibon[0] = 0;
@@ -58,13 +55,5 @@ public class Application {
         }
 
 
-    }
-
-    public static long fibon(long n) {
-        if (n == 0 || n == 1) {
-            return n;
-        } else {
-            return fibon(n - 1) + fibon(n - 2);
-        }
     }
 }
