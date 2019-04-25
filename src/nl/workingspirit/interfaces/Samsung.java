@@ -33,6 +33,7 @@ public class Samsung implements Television {
         return this.currentChannel;
     }
 
+    @Override
     public double getPrice() {
         return this.price + this.price * Television.VAT_PERCENTAGE;
     }

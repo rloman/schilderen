@@ -11,5 +11,7 @@ public class Application {
         System.out.println(myTelevision.getCurrentChannel());
         myTelevision.off();
 
+        System.out.println("The price of myTelevision is: "+myTelevision.getPrice());
+
     }
 }

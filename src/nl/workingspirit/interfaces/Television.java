@@ -7,6 +7,6 @@ public interface Television {
     public abstract void on(); // public abstract mag hier weg. is impliciet.
     void off();
     int switchChannel(int newChannel);
-
     int getCurrentChannel();
+    double getPrice();
 }
