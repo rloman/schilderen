@@ -1,4 +1,4 @@
-package nl.workingspirit.interfaces;
+package nl.workingspirit.schilderen.interfaces;
 
 public class Application {
 
