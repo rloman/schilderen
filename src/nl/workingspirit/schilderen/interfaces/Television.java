@@ -9,4 +9,12 @@ public interface Television {
     int switchChannel(int newChannel);
     int getCurrentChannel();
     double getPrice();
+
+    default String getCountry() {
+        return "NL";
+    }
+
+    default String getCurrency() {
+        return "$";
+    }
 }

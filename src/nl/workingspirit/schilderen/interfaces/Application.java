@@ -13,5 +13,9 @@ public class Application {
 
         System.out.println("The price of myTelevision is: "+myTelevision.getPrice());
 
+        System.out.println(myTelevision.getCountry());
+
+        Samsung samsungTV = new Samsung();
+        System.out.println(samsungTV.getCountry());
     }
 }
